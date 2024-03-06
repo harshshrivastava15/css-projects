@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 40px;
     color: aliceblue;
     font-weight: 700;
 }
@@ -45,7 +45,20 @@
 
 }
 .nav a{
-    padding: 20px;
+    padding: 1vw;
+    margin: 1vw;
+    text-decoration: none;
+    font-size: 20px;
+    color:blanchedalmond;
+}
+.nav a:hover{
+    border-bottom: 2px solid white;
+    
+}
+@media (width <= 1256px){
+    .nav{
+        display: none;
+    }
 }
 .cont{
     display: flex;
